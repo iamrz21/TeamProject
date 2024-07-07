@@ -1,5 +1,9 @@
 # Mohammad Reza Zarei
 
+def menu_dict_generator(x):
+    menu_dict = dict(x.split() for x in x.split(','))
+    return menu_dict
+
 def order_dict_generator(y):
     order_dict = {}
     order_inp = y.split(',')
